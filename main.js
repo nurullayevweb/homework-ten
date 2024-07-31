@@ -36,15 +36,15 @@
 
 // homework 3
 
-function findLargeText(txt) {
-    var textArray = txt.split(" ");
-    var bigText = textArray[0];
+// function findLargeText(txt) {
+//     var textArray = txt.split(" ");
+//     var bigText = textArray[0];
   
-    for (var text of textArray) {
-      if (text.length > bigText.length) {
-        bigText = text;
-      }
-    }
-    return bigText;
-  }
-  console.log(findLargeText("The most wanted free SVG user interface icons"));
+//     for (var text of textArray) {
+//       if (text.length > bigText.length) {
+//         bigText = text;
+//       }
+//     }
+//     return bigText;
+//   }
+//   console.log(findLargeText("The most wanted free SVG user interface icons"));
